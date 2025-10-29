@@ -478,6 +478,10 @@ function App() {
                 placeholder="Enter your OpenAI API key"
                 className="api-key-input"
               />
+              <div className="api-key-warning">
+                <p>🔒 Your API key is only stored locally in your browser and is never sent to or stored by our servers.</p>
+                <p>⚠️ Never share your API key with anyone. Keep it secure!</p>
+              </div>
             </div>
             <div className="settings-actions">
               <button onClick={saveApiKey} className="save-btn">Save</button>

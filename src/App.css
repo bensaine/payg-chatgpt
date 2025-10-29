@@ -391,6 +391,31 @@
   box-shadow: 0 4px 12px rgba(16, 163, 127, 0.2);
 }
 
+.api-key-warning {
+  margin-top: 0.75rem;
+  padding: 0.75rem;
+  background: rgba(251, 191, 36, 0.1);
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.api-key-warning p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #fbbf24;
+}
+
+.api-key-warning p:first-child {
+  color: #10b981;
+  margin-bottom: 0.5rem;
+}
+
+.api-key-warning p:last-child {
+  color: #f59e0b;
+}
+
 .settings-actions {
   display: flex;
   gap: 0.5rem;
